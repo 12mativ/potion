@@ -8,7 +8,7 @@ import { useMutation } from "convex/react";
 import { api } from "../../convex/_generated/api";
 import { useParams } from "next/navigation";
 import { Id } from "../../convex/_generated/dataModel";
-import { SingleImageDropzone } from "../sigle-image-dropzone";
+import { SingleImageDropzone } from "../single-image-dropzone";
 
 export const CoverImageModal = () => {
   const params = useParams();
