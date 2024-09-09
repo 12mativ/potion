@@ -26,6 +26,7 @@ export const Banner = ({ documentId }: BannerProps) => {
       success: "Note deleted!",
       error: "Failed to delete note.",
     });
+    console.log("here")
 
     router.push("/documents");
   };
