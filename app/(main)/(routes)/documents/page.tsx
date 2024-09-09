@@ -27,7 +27,7 @@ const DocumentPage = () => {
 
   return (
     <div className="h-full flex flex-col items-center justify-center space-y-4">
-      <Image 
+      {/* <Image 
         src="/placeholder.png"
         height="300"
         width="300"
@@ -40,7 +40,7 @@ const DocumentPage = () => {
         width="300"
         alt="Empty"
         className="hidden dark:block"
-      />
+      /> */}
       <h2 className="text-lg font-medium">
         Welcome to {user?.firstName || user?.username}&apos;s Potion
       </h2>
